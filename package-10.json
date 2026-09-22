@@ -1,0 +1,13 @@
+{
+  "name": "bedrock-player-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A minimal Minecraft Bedrock client bot that joins as a player and stays still.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.60.0"
+  }
+}

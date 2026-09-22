@@ -1,0 +1,13 @@
+{
+  "server": {
+    "host": "1234-zras.aternos.me",
+    "port": 64049,
+    "version": "1.26.40.8"
+  },
+  "account": {
+    "username": "AlgyarBot",
+    "password": ""
+  },
+  "offline": true,
+  "keepAlive": true
+}

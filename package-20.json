@@ -1,0 +1,15 @@
+{
+  "name": "bedrock-player-bot-xbox",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Minecraft Bedrock bot with Xbox/Microsoft authentication for official servers",
+  "main": "bot-xbox.js",
+  "scripts": {
+    "start": "node bot-xbox.js",
+    "start:offline": "node bot.js"
+  },
+  "dependencies": {
+    "bedrock-protocol": "^3.60.0",
+    "@xboxreplay/xboxlive-auth": "^2.3.0"
+  }
+}

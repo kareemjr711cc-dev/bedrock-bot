@@ -3,7 +3,7 @@ FROM node:24-alpine
 WORKDIR /app
 
 # Build tools needed to compile raknet-native (a native dependency of bedrock-protocol)
-RUN apk add --no-cache python3 make g++
+RUN apk add --no-cache python3 make g++ cmake
 
 # Copy package files
 COPY package.json package-lock.json* ./
